@@ -1,0 +1,66 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2017/07/03/20/17/colorful-2468874_640.jpg);
+    background-size: cover;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contenedor  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.contenedor .avatar h3 { 
+    text-align: center;
+    font-weight:bold;
+}
+
+.links {
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link {
+    background-color: rgb(201, 178, 255);
+    margin-bottom: 15px;
+    padding: 15xp 20xp;
+    width: 500px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.link a {
+    text-decoration: none;
+    color: red;
+    text-transform: uppercase;
+}
+
+.link:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+.link .check-icon {
+    fill: chocolate;
+}
+
+.redes {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+
+
